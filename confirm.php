@@ -48,7 +48,11 @@
         <input type="hidden" name="name" value="<?php echo htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8'); ?>">
         <input type="hidden" name="email" value="<?php echo htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8'); ?>">
         <input type="hidden" name="age" value="<?php echo htmlspecialchars($_POST['age'], ENT_QUOTES, 'UTF-8'); ?>">
-        <a href="input.php" class="back-button">戻る</a><button type="submit">登録完了</button>
+        <!-- <a href="input.php" class="back-button">戻る</a><button type="submit">登録完了</button> -->
+        <p>
+            <button type="button" onclick="history.back();">戻る</button>
+            <button type="submit">登録する</button>
+        </p>
     </form>
 </body>
 

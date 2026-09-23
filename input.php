@@ -11,11 +11,11 @@
     <h1>ユーザー登録（1/3）入力</h1>
     <form action="confirm.php" method="post">
         <label for="name">お名前：</label>
-        <input type="text" name="name" id="name"><br>
+        <input type="text" name="name" id="name" required><br>
         <label for="email">メールアドレス：</label>
         <input type="email" name="email" id="email"><br>
         <label for="age">年齢：</label>
-        <input type="number" name="age" id="age"><br><br>
+        <input type="number" name="age" id="age" min="0" max="130"><br><br>
         <button type="submit">確認画面へ</button>
     </form>
 </body>

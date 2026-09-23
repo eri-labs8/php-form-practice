@@ -17,6 +17,7 @@ COACHTECH 教材 Tutorial 7-4「フォームとデータ受け渡し ハンズ�
 - tableタグの書き方、CSS設定方法
 - aタグの使用方法
 - touchコマンドで複数ファイルを作成出来る
+- history.back()
 
 ## 詰まったポイントと解決方法
 
